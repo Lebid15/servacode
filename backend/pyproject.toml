@@ -1,0 +1,25 @@
+# =====================================================
+# إعدادات الجودة والاختبارات للباكند
+# =====================================================
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-q --disable-warnings --strict-markers"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+exclude = [
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = true

@@ -1,0 +1,10 @@
+{
+  "icon_png_valid": true,
+  "forbidden_findings": [],
+  "admin_dir_exists": false,
+  "auth_dir_exists": false,
+  "stage_reports": [],
+  "has_middleware": true,
+  "removed_legacy_theme_files": true,
+  "note": "Audit excludes this report file itself to avoid self-referencing the searched cleanup terms."
+}

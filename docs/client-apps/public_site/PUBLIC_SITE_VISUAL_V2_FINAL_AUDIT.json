@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "public_site only",
+  "icon": {
+    "valid": true,
+    "size": [
+      512,
+      512
+    ],
+    "mode": "RGBA"
+  },
+  "forbidden_findings": [],
+  "invalid_tailwind_findings": [],
+  "direct_lucide_imports_outside_app_icon": [],
+  "admin_routes": [],
+  "stage_reports": [],
+  "missing_required_files": [],
+  "package_scripts_ok": true,
+  "package_scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0",
+    "type-check": "tsc --noEmit",
+    "quality": "npm run type-check && npm run lint",
+    "clean": "node scripts/clean-next-cache.mjs",
+    "check": "npm run type-check && npm run lint && npm run build",
+    "dev:3000": "next dev --port 3000",
+    "start:3000": "next start --port 3000"
+  },
+  "counts": {
+    "routes": 16,
+    "tsx_files": 79,
+    "public_components": 30,
+    "design_components": 20
+  }
+}

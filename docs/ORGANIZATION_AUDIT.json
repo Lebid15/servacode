@@ -1,0 +1,27 @@
+{
+  "active_structure": [
+    "backend",
+    "public_site",
+    "admin_panel",
+    "docs",
+    "deployment"
+  ],
+  "archived": [],
+  "removed_from_active_source": [
+    ".env.local",
+    "admin_panel/.env.local",
+    "public_site/.env.local",
+    "backend/.pytest_cache",
+    "*.tsbuildinfo"
+  ],
+  "separation_fixes": [
+    "Removed admin/auth shared folders from public_site active source",
+    "Removed public/seo shared folders from admin_panel active source",
+    "Replaced admin_panel sitemap/robots with admin-only versions",
+    "Removed obsolete container packaging references",
+    "Updated GitHub CI to test public_site and admin_panel separately",
+    "Removed admin layout files from public_site design-system layout folder",
+    "Removed public layout files from admin_panel design-system layout folder",
+    "Moved public_site and admin_panel to project root and removed the old frontend container directory"
+  ]
+}

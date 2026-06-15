@@ -1,0 +1,935 @@
+{
+  "common": {
+    "foundation": "Core",
+    "loading": "Loading",
+    "error": "Something went wrong",
+    "empty": "No published content"
+  },
+  "home": {
+    "title": "Professional Software Company Platform",
+    "description": "A complete marketing interface for a software company to present services, products, work, and client requests.",
+    "stageTitle": "Public site readiness",
+    "stageDescription": "A polished home page prepared to present the company identity, services, and products professionally.",
+    "primaryCta": "Start Your Project",
+    "secondaryCta": "View Products"
+  },
+  "actions": {
+    "login": "Log in",
+    "logout": "Log out",
+    "save": "Save",
+    "cancel": "Cancel",
+    "openWebsite": "Open website",
+    "switchLanguage": "Switch language",
+    "switchTheme": "Switch theme",
+    "menu": "Open menu",
+    "close": "Close"
+  },
+  "auth": {
+    "loginTitle": "Management Login",
+    "loginDescription": "Enter your account credentials to manage the website.",
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "admin",
+    "passwordPlaceholder": "••••••••",
+    "loginButton": "Log in",
+    "loginLoading": "Logging in...",
+    "loginFailed": "Login failed. Check your credentials and try again.",
+    "sessionLoading": "Checking session...",
+    "protectedMessage": "You must log in to access the admin panel."
+  },
+  "admin": {
+    "brand": "Software Studio",
+    "panel": "Management Console",
+    "dashboardTitle": "Dashboard",
+    "dashboardDescription": "A quick summary of content, project requests, messages, and website status.",
+    "welcome": "Welcome to the admin panel",
+    "foundationNotice": "Use the sidebar to manage services, apps, systems, work, messages, and company identity.",
+    "user": "User",
+    "role": "Role",
+    "currentTheme": "Current theme",
+    "currentLanguage": "Current language",
+    "quickStats": "Initial stats",
+    "stats": {
+      "services": "Services",
+      "products": "Systems",
+      "quotes": "Project requests",
+      "messages": "Messages",
+      "apps": "Apps",
+      "support": "Support requests"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "services": "Services",
+      "products": "Systems",
+      "portfolio": "Work",
+      "quotes": "Project Requests",
+      "messages": "Contact Messages",
+      "blog": "Insights",
+      "staticPages": "Static Pages",
+      "testimonials": "Testimonials",
+      "faq": "FAQs",
+      "media": "Media Library",
+      "settings": "Company Identity",
+      "users": "Users",
+      "notifications": "Notifications",
+      "auditLogs": "Audit Logs",
+      "analytics": "Analytics",
+      "emailTemplates": "Email Templates",
+      "apps": "Apps",
+      "roles": "Roles & Permissions",
+      "supportRequests": "Support Requests"
+    }
+  },
+  "themes": {
+    "blue-tech": "Blue Tech",
+    "emerald-luxury": "Emerald Luxury"
+  },
+  "table": {
+    "search": "Search",
+    "searchPlaceholder": "Search here...",
+    "create": "Create new",
+    "edit": "Edit",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "actions": "Actions",
+    "status": "Status",
+    "title": "Title",
+    "name": "Name",
+    "slug": "Slug",
+    "createdAt": "Created at",
+    "emptyTitle": "No data",
+    "emptyDescription": "No matching items were found.",
+    "loading": "Loading data...",
+    "save": "Save",
+    "close": "Close",
+    "details": "Details",
+    "confirmDelete": "Do you want to delete this item?",
+    "yesDelete": "Yes, delete",
+    "cancel": "Cancel",
+    "active": "Active",
+    "inactive": "Inactive",
+    "unknown": "Unknown"
+  },
+  "adminModules": {
+    "services": {
+      "title": "Services Management",
+      "description": "Create, edit, and disable services shown on the public website."
+    },
+    "products": {
+      "title": "Systems Management",
+      "description": "Manage software systems and platforms, statuses, and information."
+    },
+    "portfolio": {
+      "title": "Work Management",
+      "description": "Manage work items and projects shown on the Work page."
+    },
+    "quoteRequests": {
+      "title": "Project Requests",
+      "description": "Track project requests, change status and priority, and add notes."
+    },
+    "contactMessages": {
+      "title": "Contact Messages",
+      "description": "Read visitor messages, update status, and add internal notes."
+    },
+    "blog": {
+      "title": "Insights Management",
+      "description": "Manage insights, posts, categories, and publishing status."
+    },
+    "staticPages": {
+      "title": "Static Pages",
+      "description": "Manage legal pages and marketing content."
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "description": "Manage client testimonials and their display order."
+    },
+    "faq": {
+      "title": "FAQ Management",
+      "description": "Manage general, service, and product questions."
+    },
+    "media": {
+      "title": "Media Library",
+      "description": "Upload and manage images and downloadable files for the website, apps, and systems."
+    },
+    "settings": {
+      "title": "Company Identity",
+      "description": "Update company name, logo, theme, language, contact details, and SEO."
+    },
+    "users": {
+      "title": "Users",
+      "description": "Manage management console users and their roles."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "View and manage internal notifications."
+    },
+    "auditLogs": {
+      "title": "Audit Logs",
+      "description": "View sensitive actions performed inside the system."
+    },
+    "analytics": {
+      "title": "Analytics",
+      "description": "View initial event and visit summaries."
+    },
+    "emailTemplates": {
+      "title": "Email Templates",
+      "description": "Manage email templates used by system notifications."
+    },
+    "crm": {
+      "timeline": "Timeline",
+      "addNote": "Add note",
+      "notePlaceholder": "Write an internal note about the request...",
+      "statusUpdated": "Status updated",
+      "emailTemplatesReady": "Default email templates are ready"
+    },
+    "apps": {
+      "title": "Apps Management",
+      "description": "Manage public apps and utility tools shown on the Apps page."
+    }
+  },
+  "fields": {
+    "titleAr": "Arabic title",
+    "titleEn": "English title",
+    "nameAr": "Arabic name",
+    "nameEn": "English name",
+    "slugAr": "Arabic slug",
+    "slugEn": "English slug",
+    "descriptionAr": "Arabic description",
+    "descriptionEn": "English description",
+    "contentAr": "Arabic content",
+    "contentEn": "English content",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "fullName": "Full name",
+    "username": "Username",
+    "password": "Password",
+    "status": "Status",
+    "priority": "Priority",
+    "message": "Message",
+    "subject": "Subject",
+    "theme": "Theme",
+    "language": "Language",
+    "logoUrl": "Logo URL",
+    "faviconUrl": "Favicon URL",
+    "imageUrl": "Image URL",
+    "sortOrder": "Sort order",
+    "createdAt": "Created at",
+    "platform": "Platform",
+    "pricing": "Pricing",
+    "version": "Version",
+    "iconUrl": "Icon URL",
+    "downloadUrl": "Download URL",
+    "liveUrl": "Live URL",
+    "supportUrl": "Support URL",
+    "privacyUrl": "Privacy URL",
+    "featured": "Featured",
+    "fullDescriptionAr": "Full description AR",
+    "fullDescriptionEn": "Full description EN",
+    "type": "Type",
+    "companyLegalNameAr": "Legal name AR",
+    "companyLegalNameEn": "Legal name EN",
+    "companyDescriptionAr": "Company description AR",
+    "companyDescriptionEn": "Company description EN",
+    "mapUrl": "Map URL",
+    "workingHoursAr": "Working hours AR",
+    "workingHoursEn": "Working hours EN",
+    "supportEmail": "Support email",
+    "supportPhone": "Support phone",
+    "section_apps": "Our Apps section"
+  },
+  "publicNav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Systems",
+    "portfolio": "Work",
+    "blog": "Insights",
+    "contact": "Contact",
+    "quote": "Start Your Project",
+    "admin": "Site Management",
+    "apps": "Apps",
+    "downloads": "Download Center",
+    "support": "Support Center",
+    "testimonials": "Testimonials"
+  },
+  "public": {
+    "home": {
+      "title": "We turn ideas into software systems worthy of ambitious companies",
+      "description": "We build websites, web apps, admin panels, and operational software with clear architecture and polished user experience, turning strong ideas into reliable products that can grow.",
+      "primaryCta": "Start project analysis",
+      "secondaryCta": "See what we build",
+      "servicesTitle": "Software solutions",
+      "productsTitle": "Software Systems",
+      "portfolioTitle": "Selected Work",
+      "whyTitle": "Why serious teams trust our work",
+      "whyDescription": "We combine business thinking with clean engineering: clear analysis, persuasive interfaces, secure backend foundations, and delivery that can evolve without rebuilding everything.",
+      "processTitle": "A method that turns ideas into products",
+      "faqTitle": "Frequently asked questions",
+      "testimonialsTitle": "Client testimonials",
+      "ctaTitle": "Ready to build something worthy of your name?",
+      "ctaDescription": "Send your idea and we will respond with a practical direction that clarifies the path, priorities, and what the project needs to look professional."
+    },
+    "about": {
+      "title": "We build software systems that work seriously",
+      "description": "We are not just page builders. We help founders and businesses turn ideas into structured, scalable, production-ready digital products.",
+      "vision": "Our vision",
+      "visionBody": "Software should become a real operational and growth tool, not a temporary interface or a quick visual layer.",
+      "mission": "Our mission",
+      "missionBody": "We build websites, apps, dashboards, desktop software, and integrations with clear architecture and reliable user experience.",
+      "values": "Our values",
+      "valuesBody": "Clarity, structure, security, performance, and respect for the end-user experience at every stage."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Software services for companies that need digital presence, internal systems, and scalable products.",
+      "detailsCta": "Service details",
+      "empty": "No active services are available yet."
+    },
+    "products": {
+      "title": "Systems",
+      "description": "Software systems and platforms that can be customized and extended around each project.",
+      "detailsCta": "System details",
+      "empty": "No systems are published right now."
+    },
+    "portfolio": {
+      "title": "Work",
+      "description": "Selected work, projects, and systems prepared for presentation.",
+      "detailsCta": "View work",
+      "empty": "No work items are published right now."
+    },
+    "blog": {
+      "title": "Insights",
+      "description": "Selected articles and insights about digital products, systems, and user experience.",
+      "detailsCta": "Read insight",
+      "empty": "No insights are published right now."
+    },
+    "quote": {
+      "title": "Start Your Software Project",
+      "description": "Share the project or system you need, and we will turn it into a clear direction for design, architecture, timeline, and cost.",
+      "success": "Your project request has been sent successfully. We will review it and contact you soon.",
+      "submit": "Send project request",
+      "projectType": "Project type",
+      "budget": "Expected budget",
+      "duration": "Expected timeline",
+      "preferredContact": "Preferred contact method"
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "Send us your idea or question and we will help turn it into a clear, executable software direction.",
+      "success": "Your message has been sent successfully. We will review it and contact you.",
+      "submit": "Send message"
+    },
+    "legal": {
+      "privacyTitle": "Privacy Policy",
+      "termsTitle": "Terms of Use",
+      "body": "We handle visitor and client data responsibly and only for the purpose it was submitted for.",
+      "privacyBody": [
+        "We respect visitor and client privacy. We only ask for information needed to communicate, review a request, or understand a project idea.",
+        "Information submitted through contact and quote forms is used to reply to inquiries, prepare initial directions, and improve service quality.",
+        "We do not sell your data or share it with external parties for marketing purposes. Trusted technical services may be used to operate the website, protect requests, and improve performance.",
+        "You can request data correction or deletion through the contact methods available on the website."
+      ],
+      "termsBody": [
+        "Using this website means you agree to browse its content and contact us in a lawful and respectful way.",
+        "The content explains services and systems in general and does not represent a final price, timeline, or commitment until project requirements are reviewed and agreed upon.",
+        "Each project should have a clear scope covering requirements, deliverables, implementation phases, and delivery method before work begins.",
+        "We may update website content and usage terms as services and work methods evolve."
+      ]
+    },
+    "system": {
+      "notFoundTitle": "Page not found",
+      "notFoundDescription": "The page you are trying to open is not available.",
+      "maintenanceTitle": "Website under maintenance",
+      "maintenanceDescription": "We are improving the experience. Please come back later.",
+      "backHome": "Back home"
+    },
+    "unavailable": {
+      "badge": "Not published yet",
+      "description": "There are no published items in this section right now. You can return home or send your project details and we will contact you.",
+      "homeCta": "Back home",
+      "quoteCta": "Start Your Project"
+    },
+    "apps": {
+      "title": "Our Apps",
+      "description": "Public apps and utility tools available for direct use or download, with clear updates and support.",
+      "detailsCta": "Download app"
+    },
+    "downloads": {
+      "title": "Download Center",
+      "description": "Download links for available public apps and utility tools.",
+      "empty": "No downloadable apps are available right now. Please check back later or contact us for available options.",
+      "downloadCta": "Download",
+      "detailsCta": "App details",
+      "version": "Version"
+    },
+    "support": {
+      "title": "Support Center",
+      "description": "Send a clear support request for an app, system, or utility tool, and we will review it from the management console.",
+      "eyebrow": "App and system support",
+      "channelsTitle": "Support channels",
+      "channelsDescription": "Use the form or contact us through the available company support channels.",
+      "noChannels": "No direct support channels have been configured yet. Use the form and we will review your request.",
+      "beforeTitle": "Before you submit",
+      "beforeDescription": "The clearer the issue or question, the faster and more accurate the response can be.",
+      "tips": [
+        "Mention the related app or product if available.",
+        "Describe the steps that led to the issue or what you need help with.",
+        "Include the version or operating system when the request is about an app."
+      ],
+      "formTitle": "Send a support request",
+      "formDescription": "Fill in the details below and your request will be saved for follow-up.",
+      "app": "Related app",
+      "noApp": "General request without a specific app",
+      "submit": "Send support request",
+      "loading": "Sending...",
+      "success": "Your support request has been sent successfully. We will review it and contact you.",
+      "error": "Could not send the support request. Please try again later or use the direct contact details.",
+      "privacyNote": "We use your information only to follow up on the support request and contact you.",
+      "priorities": [
+        {
+          "value": "low",
+          "label": "Low"
+        },
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "high",
+          "label": "High"
+        },
+        {
+          "value": "urgent",
+          "label": "Urgent"
+        }
+      ]
+    }
+  },
+  "publicIdentity": {
+    "tagline": "Professional Software Systems",
+    "description": "We design and build websites, web apps, admin panels, desktop software, and API integrations with a scalable technical foundation.",
+    "build": "What we build",
+    "systems": "Scalable systems",
+    "webApps": "Web Apps",
+    "desktopApps": "Desktop Apps",
+    "adminPanels": "Management systems",
+    "apiIntegrations": "API Integrations",
+    "rights": "All rights reserved.",
+    "address": "Address",
+    "workingHours": "Working hours",
+    "openMap": "Open map"
+  },
+  "publicHomeRedesign": {
+    "hero": {
+      "eyebrow": "A software company built around excellence"
+    },
+    "heroVisual": {
+      "systemCore": "System Core",
+      "apiLayer": "API Layer",
+      "dashboard": "Management UI",
+      "database": "Database",
+      "security": "Security",
+      "uptime": "Uptime",
+      "response": "Response",
+      "scalable": "Scalable",
+      "frontend": "User Interface",
+      "backend": "System Logic",
+      "deploy": "Deployment",
+      "reports": "Reports"
+    },
+    "trust": {
+      "web": "Professional websites",
+      "apps": "Web applications",
+      "panels": "Admin panels",
+      "systems": "Custom systems"
+    },
+    "sections": {
+      "whatWeBuildEyebrow": "Operational solutions",
+      "whatWeBuildTitle": "We build the interface, the system, and the logic behind both",
+      "whatWeBuildDescription": "Every project should serve a clear goal: build trust, organize operations, speed up work, or turn an idea into a dependable digital product.",
+      "whyEyebrow": "Standards that raise the project level",
+      "processEyebrow": "A clear execution path",
+      "processDescription": "We start with discovery and analysis, then build architecture, UX, backend, and tests so the project launches organized, understandable, and ready to scale.",
+      "techEyebrow": "Technologies",
+      "techTitle": "Modern technology that serves the goal, not the buzzwords",
+      "techDescription": "We choose the stack around the project needs and build clean foundations that balance performance, security, maintainability, and future growth."
+    },
+    "build": {
+      "websites": {
+        "title": "Professional websites",
+        "description": "Fast, persuasive company websites that communicate trust, present services, and turn visitors into qualified leads."
+      },
+      "webApps": {
+        "title": "Web applications",
+        "description": "Interactive applications built around real workflows, clear permissions, and practical user experience."
+      },
+      "desktop": {
+        "title": "Desktop software",
+        "description": "Operational desktop tools that help teams complete daily work with better speed and structure."
+      },
+      "admin": {
+        "title": "Management dashboards",
+        "description": "Dashboards that manage content, requests, users, reports, and settings from one clear place."
+      },
+      "apis": {
+        "title": "API integrations",
+        "description": "Payment, messaging, maps, and external service integrations with secure, scalable logic."
+      },
+      "data": {
+        "title": "Databases and systems",
+        "description": "Data modeling and business logic that protect information and let the system grow without chaos."
+      }
+    },
+    "why": {
+      "system": {
+        "title": "Centralized maintainable architecture",
+        "description": "We organize components, styles, and logic so your project does not become chaotic over time."
+      },
+      "security": {
+        "title": "Security and permissions from day one",
+        "description": "Authentication, roles, logs, and data protection are part of the project foundation."
+      },
+      "performance": {
+        "title": "Performance and usability",
+        "description": "We care about speed, clear flows, and the details users interact with daily."
+      }
+    },
+    "process": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "We define the goal, users, requirements, and problems to solve."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "description": "We design the technical structure, database, and interfaces before implementation."
+      },
+      "design": {
+        "title": "Experience design",
+        "description": "We create a clear and polished interface suitable for real users."
+      },
+      "development": {
+        "title": "Development",
+        "description": "We build the frontend, backend, integrations, and tests."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "We prepare the project for deployment, review, and continuous improvement."
+      }
+    }
+  },
+  "publicAboutRedesign": {
+    "eyebrow": "About us",
+    "panelTitle": "Software systems studio",
+    "panelDescription": "We design every project as a complete system: interface, logic, data, permissions, performance, and scalability.",
+    "stats": {
+      "systems": {
+        "value": "01",
+        "label": "System structure"
+      },
+      "platforms": {
+        "value": "02",
+        "label": "Web & desktop"
+      },
+      "architecture": {
+        "value": "03",
+        "label": "UX & integrations"
+      }
+    },
+    "sections": {
+      "identityEyebrow": "Our identity",
+      "identityTitle": "A software company that thinks product-first",
+      "identityDescription": "We start by understanding the problem, then shape the solution around the user experience and technical foundation.",
+      "valuesEyebrow": "Work standards",
+      "valuesTitle": "Small details create strong software",
+      "valuesDescription": "Every project should be clear, maintainable, user-friendly, and ready to evolve later.",
+      "methodEyebrow": "Our method",
+      "methodTitle": "How we turn an idea into a system",
+      "methodDescription": "We follow a clear path that reduces randomness and gives every design and engineering decision a purpose."
+    },
+    "values": {
+      "structure": {
+        "title": "Structure before execution",
+        "description": "We do not start with pages immediately. We define architecture, components, data, and flows first."
+      },
+      "trust": {
+        "title": "Trust and security",
+        "description": "We care about permissions, data protection, clear errors, and stable experiences."
+      },
+      "performance": {
+        "title": "Performance and experience",
+        "description": "The interface should be fast, understandable, and comfortable for daily users."
+      },
+      "workflow": {
+        "title": "Ready to scale",
+        "description": "We build in a way that supports adding services, products, and features later."
+      }
+    },
+    "method": {
+      "analysis": {
+        "title": "Idea analysis",
+        "description": "We define the goal, users, requirements, and expected outcome."
+      },
+      "architecture": {
+        "title": "System architecture",
+        "description": "We plan the technical structure, data flows, and permissions before final design."
+      },
+      "interface": {
+        "title": "Experience design",
+        "description": "We design a clear, polished, bilingual interface."
+      },
+      "delivery": {
+        "title": "Build and deliver",
+        "description": "We develop, test, and prepare the project for launch and future growth."
+      }
+    },
+    "cta": {
+      "title": "Have an idea that needs a real system?",
+      "description": "Send us your project details and we will help turn it into a clear, executable plan.",
+      "button": "Start your project"
+    }
+  },
+  "publicContactRedesign": {
+    "eyebrow": "Direct communication",
+    "responseTitle": "We review your message carefully",
+    "responseDescription": "We read your request, understand the core need, and respond with a meaningful next step instead of generic replies.",
+    "address": "Address",
+    "fallback": "Not available right now",
+    "phoneHint": "For quick questions and follow-up.",
+    "whatsappHint": "Good for direct communication and sharing details.",
+    "emailHint": "Best for official requests and files.",
+    "trustTitle": "What happens after contact?",
+    "formTitle": "Write your message",
+    "formDescription": "The clearer your details are, the better we can understand the project and suggest the right direction.",
+    "loading": "Sending...",
+    "error": "We could not send the message now. Please try again later.",
+    "privacyNote": "We do not share your data with external parties. It is used only to respond to your request.",
+    "trust": {
+      "privacy": {
+        "title": "Data privacy",
+        "description": "We treat your information and message as private data."
+      },
+      "review": {
+        "title": "Real review",
+        "description": "We do not only send automated replies; we review the idea and define the best next step."
+      },
+      "next": {
+        "title": "Clear next step",
+        "description": "After contact, we define whether you need consultation, a quote, or requirements analysis."
+      }
+    }
+  },
+  "publicQuoteRedesign": {
+    "eyebrow": "Start your project",
+    "sideTitle": "You do not need to know every technical detail",
+    "sideDescription": "Tell us what you want to build, and we will help organize the idea and define what the project really needs.",
+    "beforeTitle": "What happens after submission?",
+    "beforeDescription": "We treat your request as the first step toward a clear project direction, not just a message.",
+    "formTitle": "Project details",
+    "formDescription": "Fill in the basic information. It is okay if not every detail is clear yet.",
+    "projectDetails": "Describe the project idea",
+    "loading": "Sending request...",
+    "error": "We could not send the request now. Please try again later.",
+    "privacyNote": "We use this data only to understand your project and contact you about it.",
+    "projectTypesEyebrow": "Project types",
+    "projectTypesTitle": "We receive different ideas and turn them into clear systems",
+    "projectTypesDescription": "Whether it is a simple website or a full management system, the first step is understanding the real need.",
+    "steps": {
+      "review": {
+        "title": "Idea review",
+        "description": "We read the details and define the goal, users, and expected result."
+      },
+      "scope": {
+        "title": "Scope definition",
+        "description": "We break the project into pages, features, data, and permissions."
+      },
+      "proposal": {
+        "title": "Initial proposal",
+        "description": "We prepare a clear direction for implementation, time, and expected cost."
+      }
+    },
+    "projectCards": {
+      "website": {
+        "title": "Company website",
+        "description": "A bilingual marketing and company website with a strong identity."
+      },
+      "webApp": {
+        "title": "Web application",
+        "description": "An interactive platform with interfaces, dashboards, data, and real integration."
+      },
+      "desktop": {
+        "title": "Desktop software",
+        "description": "An operational or administrative application for desktop use."
+      },
+      "admin": {
+        "title": "Admin panel",
+        "description": "A professional panel to manage content, users, or operations."
+      }
+    },
+    "projectTypes": [
+      {
+        "value": "website",
+        "label": "Website"
+      },
+      {
+        "value": "web_app",
+        "label": "Web App"
+      },
+      {
+        "value": "desktop_app",
+        "label": "Desktop App"
+      },
+      {
+        "value": "admin_panel",
+        "label": "Management Dashboard"
+      },
+      {
+        "value": "api_integration",
+        "label": "API Integration"
+      },
+      {
+        "value": "other",
+        "label": "Other"
+      }
+    ],
+    "contactMethods": [
+      {
+        "value": "whatsapp",
+        "label": "WhatsApp"
+      },
+      {
+        "value": "phone",
+        "label": "Phone"
+      },
+      {
+        "value": "email",
+        "label": "Email"
+      }
+    ]
+  },
+  "publicDynamic": {
+    "common": {
+      "primaryCta": "Request a quote",
+      "secondaryCta": "Contact us"
+    },
+    "service": {
+      "eyebrow": "Software service",
+      "detailsEyebrow": "Service details",
+      "detailsTitle": "What do we deliver in this service?",
+      "detailsDescription": "We turn the service into a clear delivery experience covering architecture, interface, integration, and testing.",
+      "overviewTitle": "Overview",
+      "ctaTitle": "Do you need this service for your project?",
+      "ctaDescription": "Send us your requirements and we will help define the right scope and phase.",
+      "defaultFeatures": [
+        {
+          "id": "architecture",
+          "title": "Clear architecture",
+          "description": "We define structure, components, and logic before implementation."
+        },
+        {
+          "id": "design",
+          "title": "Professional interface",
+          "description": "Responsive design suitable for Arabic and English."
+        },
+        {
+          "id": "integration",
+          "title": "Real integration",
+          "description": "Connecting frontend, backend, and data in an organized way."
+        },
+        {
+          "id": "testing",
+          "title": "Testing and delivery",
+          "description": "Bug checking and preparing the project for operation."
+        }
+      ]
+    },
+    "product": {
+      "eyebrow": "Software system",
+      "detailsEyebrow": "System details",
+      "detailsTitle": "A system built for real operations",
+      "detailsDescription": "We present the system as a complete solution that can be customized and operated for real business needs.",
+      "overviewTitle": "Overview",
+      "faqTitle": "System questions",
+      "ctaTitle": "Want to try this system or build something similar?",
+      "ctaDescription": "Send us your request and we will explain the options based on your needs.",
+      "defaultFeatures": [
+        {
+          "id": "ready",
+          "title": "Ready to evolve",
+          "description": "A foundation that supports adding features without rebuilding from scratch."
+        },
+        {
+          "id": "admin",
+          "title": "Clear management",
+          "description": "Supports administration, tracking, and permissions depending on the product."
+        },
+        {
+          "id": "ui",
+          "title": "Organized interface",
+          "description": "A user experience suitable for daily work."
+        },
+        {
+          "id": "scale",
+          "title": "Scalable",
+          "description": "Designed to support growing data and users."
+        }
+      ]
+    },
+    "portfolio": {
+      "eyebrow": "Case study",
+      "detailsEyebrow": "Project details",
+      "detailsTitle": "How did we approach the idea?",
+      "detailsDescription": "We present work as a case study: problem, solution, technologies, and result.",
+      "overviewTitle": "Overview",
+      "problemTitle": "Problem",
+      "resultTitle": "Result",
+      "techTitle": "Technologies",
+      "previewCta": "Preview project",
+      "ctaTitle": "Want to build something similar?",
+      "ctaDescription": "Share your idea and we will turn it into a clear executable direction."
+    },
+    "blog": {
+      "eyebrow": "Technical article",
+      "ctaTitle": "Want to turn this idea into a project?",
+      "ctaDescription": "Contact us and we will help turn technical ideas into practical products."
+    },
+    "app": {
+      "eyebrow": "Our app",
+      "detailsEyebrow": "App details",
+      "detailsTitle": "What does this app provide?",
+      "detailsDescription": "A concise overview of usage, platform, features, and direct download links.",
+      "overviewTitle": "Overview",
+      "actionsTitle": "App links",
+      "openCta": "Request a similar app",
+      "downloadCta": "Download app",
+      "supportCta": "Support Center",
+      "changelogTitle": "Changelog",
+      "ctaTitle": "Need a similar app?",
+      "ctaDescription": "We can turn your idea into a practical app or utility ready for launch and support.",
+      "defaultFeatures": [
+        {
+          "title": "Clear user experience",
+          "description": "A simple, direct interface for everyday use."
+        },
+        {
+          "title": "Updatable foundation",
+          "description": "A foundation that supports improvements and new releases."
+        },
+        {
+          "title": "Support and operation",
+          "description": "Clear support, launch, or download links for users."
+        },
+        {
+          "title": "Launch-ready",
+          "description": "Ready to be presented on the company website and managed from the admin panel."
+        }
+      ],
+      "featureFallback": "Feature",
+      "screenshotsTitle": "App screenshots",
+      "screenshotsDescription": "Screenshots that show the interface and usage flow.",
+      "downloadsTitle": "Download files",
+      "downloadsDescription": "Available download links by operating system or platform.",
+      "requirementsTitle": "System requirements",
+      "changelogDescription": "Recent updates and improvements for this app."
+    }
+  },
+  "publicHomeV2": {
+    "architecture": {
+      "eyebrow": "System architecture",
+      "title": "We design your project as a complete system from interface to operation",
+      "description": "A professional website is not only a visual layer. We build connected layers: interface, backend, database, permissions, security, and scalable reporting.",
+      "badge": "Production-ready Architecture",
+      "panelTitle": "Every layer has a clear role",
+      "panelDescription": "This approach makes the project maintainable, scalable, and ready to evolve without rebuilding everything from scratch.",
+      "frontend": "Fast frontend",
+      "backend": "Structured backend",
+      "database": "Scalable database",
+      "security": "Security and roles",
+      "admin": "Management system",
+      "deploy": "Deployment",
+      "metricSpeed": "Fast interfaces and comfortable user experience",
+      "metricSecurity": "Permissions and data protection from day one",
+      "metricScale": "Architecture ready for new features and products",
+      "metricMaintain": "Clean structure for maintenance and growth"
+    },
+    "proof": {
+      "web": {
+        "title": "A company-grade interface",
+        "description": "Clear, fast, bilingual design for serious businesses."
+      },
+      "backend": {
+        "title": "Scalable logic",
+        "description": "Structured backend foundations ready for future growth."
+      },
+      "admin": {
+        "title": "Real content management",
+        "description": "Settings, content, messages, and requests can be followed from one place."
+      },
+      "security": {
+        "title": "Security from day one",
+        "description": "Data protection, permissions, and operation logs considered early."
+      }
+    },
+    "composition": {
+      "eyebrow": "From idea to operation",
+      "sectionTitle": "We turn projects into complete experiences, not scattered screens",
+      "sectionDescription": "We connect design, architecture, databases, and permissions into a clear path toward a scalable product.",
+      "badge": "Product Workflow",
+      "title": "Every phase supports the next",
+      "description": "We start with the need, shape the user experience, build the logic and integrations, then prepare the product for operation.",
+      "discovery": "Idea and requirements analysis",
+      "ux": "User experience design",
+      "backend": "Logic and data foundation",
+      "delivery": "Launch and improvement",
+      "noteTitle": "Result: production-ready project",
+      "noteDescription": "The goal is not only a beautiful interface, but a system you can operate and evolve later."
+    }
+  },
+  "publicServicesPage": {
+    "featuresLabel": "Highlights",
+    "quoteCta": "Start Your Project",
+    "backToServices": "Back to services",
+    "approach": {
+      "eyebrow": "Workflow",
+      "title": "From idea to delivery through clear steps",
+      "description": "Every service follows an organized process that clarifies scope, reduces surprises, and keeps execution quality high.",
+      "discovery": {
+        "title": "Understand the need",
+        "description": "We start by clarifying the idea, audience, goals, and expected business result."
+      },
+      "planning": {
+        "title": "Plan the solution",
+        "description": "We define structure, pages, features, and integrations before development starts."
+      },
+      "delivery": {
+        "title": "Build and deliver",
+        "description": "We build the solution with clean UX, maintainable structure, and room for growth."
+      },
+      "support": {
+        "title": "Support and improve",
+        "description": "After delivery, we help with fixes, improvements, and updates when needed."
+      }
+    },
+    "detailSteps": {
+      "eyebrow": "Delivery stages",
+      "title": "How we deliver this service",
+      "description": "We keep a clear delivery path from the initial request to launch and ongoing support.",
+      "discovery": {
+        "title": "Requirements analysis",
+        "description": "We review the idea, scope, audience, and expected outcomes."
+      },
+      "scope": {
+        "title": "Scope definition",
+        "description": "We turn requirements into a clear plan for features, interfaces, and timeline."
+      },
+      "build": {
+        "title": "Design and development",
+        "description": "We implement the UI, logic, integrations, and test continuously."
+      },
+      "launch": {
+        "title": "Launch and support",
+        "description": "We prepare the launch and provide follow-up for fixes and improvements."
+      }
+    }
+  }
+}

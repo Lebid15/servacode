@@ -1,0 +1,174 @@
+/*
+=====================================================
+الأنماط العالمية
+هذا الملف يربط CSS Variables مع Tailwind ويضبط RTL/LTR والأساس البصري
+=====================================================
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-arabic: "Tajawal", "Cairo", system-ui, sans-serif;
+  --font-latin: "Inter", "SF Pro Display", system-ui, sans-serif;
+
+  --spacing-page-x: 1.25rem;
+  --spacing-page-y: 1.25rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+
+  --transition-fast: 160ms ease;
+  --transition-normal: 240ms ease;
+}
+
+[data-theme="dark"],
+[data-theme="blue-tech"] {
+  --color-background: 220 58% 8%;
+  --color-surface: 220 45% 12%;
+  --color-surface-elevated: 218 42% 16%;
+  --color-foreground: 210 40% 96%;
+  --color-muted: 214 22% 70%;
+  --color-primary: 210 100% 58%;
+  --color-primary-foreground: 220 60% 8%;
+  --color-accent: 190 95% 52%;
+  --color-border: 214 32% 24%;
+  --color-success: 152 70% 42%;
+  --color-warning: 42 95% 55%;
+  --color-danger: 0 72% 58%;
+  --shadow-card: 0 18px 50px rgb(0 0 0 / 26%);
+  --shadow-glow: 0 0 32px rgb(56 189 248 / 18%);
+}
+
+[data-theme="light"],
+[data-theme="emerald-luxury"] {
+  color-scheme: light;
+  --color-background: 218 68% 97%;
+  --color-surface: 0 0% 100%;
+  --color-surface-elevated: 207 80% 98%;
+  --color-foreground: 224 56% 12%;
+  --color-muted: 220 26% 32%;
+  --color-primary: 214 88% 36%;
+  --color-primary-foreground: 0 0% 100%;
+  --color-accent: 167 78% 32%;
+  --color-border: 215 42% 75%;
+  --color-success: 154 70% 31%;
+  --color-warning: 38 92% 44%;
+  --color-danger: 0 72% 47%;
+  --shadow-card: 0 24px 70px rgb(15 23 42 / 12%), 0 8px 24px rgb(20 184 166 / 7%);
+  --shadow-glow: 0 0 38px rgb(37 99 235 / 16%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: hsl(var(--color-background));
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  color: hsl(var(--color-foreground));
+  background:
+    radial-gradient(circle at top right, hsl(var(--color-primary) / 0.16), transparent 32rem),
+    radial-gradient(circle at bottom left, hsl(var(--color-accent) / 0.14), transparent 30rem),
+    linear-gradient(135deg, hsl(var(--color-background)), hsl(var(--color-surface-elevated)));
+  font-family: var(--font-arabic);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-latin);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: hsl(var(--color-primary) / 0.35);
+}
+
+@layer utilities {
+  .text-app-foreground {
+    color: hsl(var(--color-foreground));
+  }
+
+  .text-app-muted {
+    color: hsl(var(--color-muted));
+  }
+
+  .text-app-primary {
+    color: hsl(var(--color-primary));
+  }
+
+  .text-app-primaryForeground {
+    color: hsl(var(--color-primary-foreground));
+  }
+
+  .text-app-danger {
+    color: hsl(var(--color-danger));
+  }
+
+  .text-app-success {
+    color: hsl(var(--color-success));
+  }
+
+  .bg-app-background {
+    background-color: hsl(var(--color-background));
+  }
+
+  .bg-app-surface {
+    background-color: hsl(var(--color-surface));
+  }
+
+  .bg-app-surfaceElevated {
+    background-color: hsl(var(--color-surface-elevated));
+  }
+
+  .bg-app-primary {
+    background-color: hsl(var(--color-primary));
+  }
+
+  .bg-app-danger {
+    background-color: hsl(var(--color-danger));
+  }
+
+  .bg-app-success {
+    background-color: hsl(var(--color-success));
+  }
+
+  .border-app-border {
+    border-color: hsl(var(--color-border));
+  }
+
+  .shadow-appCard {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-appGlow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .rounded-appSm {
+    border-radius: var(--radius-sm);
+  }
+
+  .rounded-appMd {
+    border-radius: var(--radius-md);
+  }
+
+  .rounded-appLg {
+    border-radius: var(--radius-lg);
+  }
+
+  .rounded-appXl {
+    border-radius: var(--radius-xl);
+  }
+}
