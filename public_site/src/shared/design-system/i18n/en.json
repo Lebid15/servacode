@@ -38,7 +38,7 @@
     "protectedMessage": "You must log in to access the admin panel."
   },
   "admin": {
-    "brand": "Software Studio",
+    "brand": "ServaCode",
     "panel": "Management Console",
     "dashboardTitle": "Dashboard",
     "dashboardDescription": "A quick summary of content, project requests, messages, and website status.",

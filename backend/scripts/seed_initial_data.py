@@ -83,10 +83,10 @@ def main() -> None:
 
     if not SiteSettings.objects.exists():
         SiteSettings.objects.create(
-            site_name_ar="شركة البرمجيات",
-            site_name_en="Software Studio",
-            company_description_ar="منصة شركة برمجيات لإدارة الخدمات والمنتجات وطلبات العملاء.",
-            company_description_en="A software company platform for services, products, and customer requests.",
+            site_name_ar="سيرفا كود",
+            site_name_en="ServaCode",
+            company_description_ar="شركة سيرفا كود لتطوير المواقع والأنظمة والتطبيقات وحلول البرمجة المخصصة.",
+            company_description_en="ServaCode is a software studio building websites, business systems, apps, and custom software solutions.",
         )
 
     print("تم تجهيز البيانات المبدئية:")

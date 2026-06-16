@@ -278,7 +278,7 @@ class User(AbstractBaseUser, PermissionsMixin, SoftDeleteModel):
 
 class SiteSettings(UUIDTimestampModel):
     site_name_ar = models.CharField(max_length=160, default="اسم الشركة")
-    site_name_en = models.CharField(max_length=160, default="Software Studio")
+    site_name_en = models.CharField(max_length=160, default="ServaCode")
     company_legal_name_ar = models.CharField(max_length=180, null=True, blank=True)
     company_legal_name_en = models.CharField(max_length=180, null=True, blank=True)
     company_description_ar = models.TextField(null=True, blank=True)

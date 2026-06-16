@@ -2246,8 +2246,8 @@ class PublicSettingsView(APIView):
             return success_response(serializers.SiteSettingsSerializer(obj).data, message="تم جلب إعدادات الموقع.")
         return success_response(
             {
-                "site_name_ar": "اسم الشركة",
-                "site_name_en": "Software Studio",
+                "site_name_ar": "سيرفا كود",
+                "site_name_en": "ServaCode",
                 "active_theme": "blue-tech",
                 "default_language": "ar",
                 "is_english_enabled": True,

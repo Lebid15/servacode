@@ -30,7 +30,7 @@ export default function Image() {
           fontFamily: "Arial"
         }}
       >
-        <div style={{ fontSize: 68, fontWeight: 900 }}>Software Studio</div>
+        <div style={{ fontSize: 68, fontWeight: 900 }}>ServaCode</div>
         <div style={{ marginTop: 24, fontSize: 34, color: "#9bdcff" }}>
           Management Console
         </div>

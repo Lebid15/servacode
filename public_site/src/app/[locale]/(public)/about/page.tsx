@@ -141,7 +141,7 @@ export default async function AboutPage({ params }: PageProps) {
             <div className="relative grid gap-4">
               <div className="rounded-appXl border border-app-border bg-app-surfaceElevated/80 p-5">
                 <span className="text-xs font-black uppercase tracking-[0.28em] text-app-muted">
-                  Software Studio
+                  ServaCode
                 </span>
                 <h2 className="mt-3 text-2xl font-black">{dict.publicAboutRedesign.panelTitle}</h2>
                 <div className="mt-3 grid gap-3 leading-7 text-app-muted">

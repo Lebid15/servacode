@@ -6,16 +6,16 @@
  */
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || "Software Studio",
+  name: process.env.NEXT_PUBLIC_SITE_NAME || "ServaCode",
   defaultTitle:
     process.env.NEXT_PUBLIC_SITE_TITLE ||
-    "Software Studio — Professional Software Systems",
+    "ServaCode — Software, Web, and Tech Services",
   defaultDescription:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    "Professional software company specialized in websites, web applications, desktop software, management dashboards, SaaS products, and API integrations.",
+    "ServaCode is a software company specialized in websites, web and desktop applications, management dashboards, ad design, and computer/technical services.",
   defaultLocale: "ar",
   locales: ["ar", "en"],
-  twitterHandle: process.env.NEXT_PUBLIC_TWITTER_HANDLE || "@softwarestudio",
+  twitterHandle: process.env.NEXT_PUBLIC_TWITTER_HANDLE || "@servacode",
   keywords: [
     "software company",
     "web development",

@@ -8,8 +8,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Software Studio Management Console",
-    short_name: "Software Studio Management Console",
+    name: "ServaCode Management Console",
+    short_name: "ServaCode Admin",
     description: "Management console for company identity, content, project requests, and support",
     start_url: "/ar/admin/login",
     display: "standalone",

@@ -4,6 +4,6 @@
  * =====================================================
  */
 
-export const APP_FALLBACK_NAME = "Software Studio";
+export const APP_FALLBACK_NAME = "ServaCode";
 export const DEFAULT_LOCALE = "ar";
 export const DEFAULT_THEME = "blue-tech";

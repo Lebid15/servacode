@@ -37,8 +37,8 @@ const localeBootstrapScript = `
 
 export const metadata: Metadata = {
   metadataBase: getMetadataBase(),
-  title: "Software Studio — Management Console",
-  description: "Management console for the Software Studio website"
+  title: "ServaCode — Management Console",
+  description: "Management console for the ServaCode website"
 };
 
 type RootLayoutProps = {

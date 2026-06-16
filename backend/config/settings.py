@@ -24,7 +24,7 @@ def env_list(name: str, default: str = "") -> list[str]:
     return [item.strip() for item in raw.split(",") if item.strip()]
 
 
-APP_NAME = os.getenv("APP_NAME", "Software Studio API")
+APP_NAME = os.getenv("APP_NAME", "ServaCode API")
 APP_ENV = os.getenv("APP_ENV", "development")
 DEBUG = env_bool("DEBUG", APP_ENV != "production")
 API_V1_PREFIX = os.getenv("API_V1_PREFIX", "/api/v1").strip("/")
@@ -142,7 +142,7 @@ SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 SMTP_FROM_EMAIL = os.getenv("SMTP_FROM_EMAIL")
-SMTP_FROM_NAME = os.getenv("SMTP_FROM_NAME", "Software Studio")
+SMTP_FROM_NAME = os.getenv("SMTP_FROM_NAME", "ServaCode")
 SMTP_USE_TLS = env_bool("SMTP_USE_TLS", True)
 SMTP_TIMEOUT_SECONDS = int(os.getenv("SMTP_TIMEOUT_SECONDS", "10"))
 ADMIN_NOTIFICATION_EMAIL = os.getenv("ADMIN_NOTIFICATION_EMAIL")

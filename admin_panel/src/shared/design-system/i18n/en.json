@@ -6,7 +6,7 @@
     "empty": "No data found"
   },
   "home": {
-    "title": "Software Studio — Website Management Console",
+    "title": "ServaCode — Website Management Console",
     "description": "A central console for managing content, identity, services, products, requests, and users.",
     "stageTitle": "Website Management Console",
     "stageDescription": "Manage website content, messages, and settings from one place.",
@@ -62,7 +62,7 @@
     "invalidResetToken": "The password reset link is invalid or expired."
   },
   "admin": {
-    "brand": "Software Studio",
+    "brand": "ServaCode",
     "panel": "Management Console",
     "dashboardTitle": "Dashboard",
     "dashboardDescription": "A quick summary of content, project requests, messages, and website status.",
@@ -407,7 +407,7 @@
     },
     "about": {
       "title": "About us",
-      "description": "A software studio building professional websites, management systems, and scalable digital products.",
+      "description": "ServaCode — a software studio building professional websites, management systems, and scalable digital products.",
       "vision": "Vision",
       "visionBody": "To be a trusted technical partner for scalable digital products.",
       "mission": "Mission",
