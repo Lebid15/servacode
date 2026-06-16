@@ -23,7 +23,8 @@ ENV NEXT_PUBLIC_API_BASE_URL=$NEXT_PUBLIC_API_BASE_URL \
     NEXT_TELEMETRY_DISABLED=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN pnpm run build
+# Skip type-check/lint (quality) in Docker builds — those run in CI; here we only want to ship.
+RUN pnpm exec next build
 
 FROM node:20-alpine AS runner
 WORKDIR /app
