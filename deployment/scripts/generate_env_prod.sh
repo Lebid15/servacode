@@ -1,0 +1,71 @@
+#!/bin/bash
+# =====================================================
+# ServaCode — Generate .env.production with strong secrets
+# Usage: bash generate_env_prod.sh > .env.production
+# =====================================================
+set -e
+
+SECRET_KEY=$(openssl rand -base64 64 | tr -d '\n=' | head -c 64)
+POSTGRES_PASSWORD=$(openssl rand -base64 32 | tr -d '\n=/+' | head -c 40)
+
+cat <<EOF
+DOMAIN_NAME=servacode.com
+PUBLIC_DOMAIN=servacode.com
+ADMIN_DOMAIN=admin.servacode.com
+API_DOMAIN=api.servacode.com
+
+PUBLIC_SITE_URL=https://servacode.com
+ADMIN_SITE_URL=https://admin.servacode.com
+API_SITE_URL=https://api.servacode.com
+
+POSTGRES_DB=servacode
+POSTGRES_USER=servacode_user
+POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+POSTGRES_PORT=5432
+
+APP_NAME=ServaCode API
+APP_ENV=production
+DEBUG=false
+API_V1_PREFIX=/api/v1
+LOG_LEVEL=INFO
+ALLOWED_HOSTS=servacode.com,www.servacode.com,admin.servacode.com,api.servacode.com,localhost,127.0.0.1,backend
+SECRET_KEY=${SECRET_KEY}
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+REFRESH_TOKEN_EXPIRE_DAYS=7
+ALGORITHM=HS256
+LOGIN_MAX_FAILED_ATTEMPTS=5
+LOGIN_LOCKOUT_MINUTES=15
+RATE_LIMIT_ENABLED=true
+RATE_LIMIT_LOGIN=5/minute
+RATE_LIMIT_PUBLIC_FORM=5/minute
+AUTO_SEED_DEMO_CONTENT=false
+DATABASE_URL=postgresql+psycopg://servacode_user:${POSTGRES_PASSWORD}@postgres:5432/servacode
+BACKEND_CORS_ORIGINS=https://servacode.com,https://www.servacode.com,https://admin.servacode.com
+UPLOAD_DIR=/app/uploads
+MAX_UPLOAD_SIZE_MB=10
+
+ENABLE_EMAIL_NOTIFICATIONS=false
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USERNAME=
+SMTP_PASSWORD=
+SMTP_FROM_EMAIL=
+SMTP_FROM_NAME=ServaCode
+SMTP_USE_TLS=true
+SMTP_TIMEOUT_SECONDS=10
+ADMIN_NOTIFICATION_EMAIL=
+
+NEXT_PUBLIC_API_BASE_URL=https://api.servacode.com/api/v1
+NEXT_PUBLIC_SITE_URL=https://servacode.com
+NEXT_PUBLIC_ADMIN_SITE_URL=https://admin.servacode.com
+NEXT_PUBLIC_ADMIN_URL=https://admin.servacode.com
+NEXT_PUBLIC_PUBLIC_SITE_URL=https://servacode.com
+NEXT_PUBLIC_DEFAULT_LOCALE=ar
+NEXT_PUBLIC_DEFAULT_THEME=blue-tech
+NEXT_PUBLIC_ENGLISH_ENABLED=true
+NEXT_PUBLIC_SHOW_DEMO_CONTENT=false
+NEXT_PUBLIC_ALLOW_INDEXING=true
+NEXT_PUBLIC_SITE_NAME=ServaCode
+NEXT_PUBLIC_SITE_TITLE=ServaCode — Software, Web, and Tech Services
+NEXT_PUBLIC_TWITTER_HANDLE=@servacode
+EOF
